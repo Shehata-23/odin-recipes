@@ -1,4 +1,6 @@
 .footer {
+    display: flexbox;
+    flex: 1;
     box-sizing: border-box;
     position: fixed;
     color: wheat;
