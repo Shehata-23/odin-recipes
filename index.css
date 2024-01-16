@@ -1,42 +1,94 @@
-.home {
-    color: rgb(0, 0, 0);
-    text-align: center; 
-    font-size:xx-large;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-    text-decoration: underline currentColor;
-}
-
-ul {
-    display:flow-root;
-    margin-top: 25%;
-    color: #000000;
-    font-size: x-large;
-    text-align: center;
-    list-style-type: circle solid black;
-    list-style-position: inside;
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
-.footer {
-    box-sizing: border-box;
-    position: fixed;
-    color: wheat;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: 10;
-    text-align: center; 
-    font-size: xx-large;
-    font-weight: bold;
-    background-color: black;
-}   
-
-.image {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 18%;
-    height: auto;
+.container{
+    color: #fff;
+    background-color: #f1eedb;  /* Blue */
+    padding: 25px;
+    display: flex;
+    justify-content: center;
 }
+.upfoot {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    color: #d8392b;
+}
+.tit {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.l{
+    background-color: #616786;
+    display: flex;
+    justify-content: center;
+    height: 160px;
+}   
+.logo {
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.logo:hover {
+    scale:1.3;
+}
+
+.photo-grid-container{
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.photo-grid {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}  
+
+  .fir {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fi:hover {
+    scale: 1.1;
+}
+
+
+.sec {
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.sec:hover{
+    scale: 1.1;
+}
+
+
+.third:hover{
+    scale: 1.1;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .footer-item {
+    background-color: #d8392b;
+    height: 40px;
+    text-align: center;
+    font-size: xx-large;
+    flex: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
